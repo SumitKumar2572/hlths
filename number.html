@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Link</title>
+</head>
+<body>
+
+    <a href="https://wa.me/919266976662" id="whatsappLink" target="_blank"> Phone: +91 9266976662</a>
+
+    <script>
+        // Optional: You can dynamically set the WhatsApp number
+        const whatsappNumber = "9266976662"; // Enter your WhatsApp number
+        const countryCode = "91"; // Add your country code, in this case India (+91)
+        
+        const whatsappLink = document.getElementById("whatsappLink");
+        whatsappLink.href = `https://wa.me/${countryCode}${whatsappNumber}`;
+    </script>
+
+</body>
+</html>
